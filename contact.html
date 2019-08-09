@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Sprint Challenge - Home</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header id="header-box">
+            <a href="index.html">
+                <img class="nav-logo" src="img/lambda-black.png" alt="Lambda Logo">
+            </a>
+            <nav>
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="#" class="nav-link">Products</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="#" class="nav-link">Contact</a>
+            </nav>
+        </header>
+
+        <div class="contact-us">
+            <img src="img/contact.jpg" alt="two antique telephones" id="contact-img">
+            <h3>CONTACT US</h3>
+        </div>
+
+        <section>
+            <form>
+                <div class="field-container">
+                    <div class='field-wrap'>
+                        <label>First Name</label>
+                        <input type="firstname" placeholder="Enter your first name" tabindex="0">
+                    </div>
+                    <div class='field-wrap'>
+                        <label>Last Name</label>
+                        <input type="lastname" placeholder="Enter your last name" tabindex="0">
+                    </div>
+
+                    <div class='field-wrap'>
+                        <label>Email Address</label>
+                        <input type="email" placeholder="Enter your email address" tabindex="0">
+                    </div>
+
+                    <div class='field-wrap'>
+                        <label>Subject</label>
+                        <div class="select-wrap">
+                            <select type="select" id="subject">
+                                <option value="" selected="">Select</option>
+                                <option value="Pricing/Sales">Pricing/Sales</option>
+                                <option value="Enquiry">Enquiry</option>
+                                <option value="Marketing/PR">Marketing/PR</option>
+                                <option value="Partnerships">Partnerships</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class='field-wrap'>
+                        <label>Message</label>
+                        <textarea type="text" placeholder="" id="question" rows="10" cols="30"
+                            class="required"></textarea>
+                    </div>
+
+                    <div class="field-wrap">
+                        <button class="form-submit" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+
+
+    </div>
+</body>
