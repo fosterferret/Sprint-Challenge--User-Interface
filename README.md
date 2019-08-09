@@ -34,9 +34,19 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+ANS: Semantic HTML is the use of HTML markup to add contextual meaning to a web page, rather than just presentational, which in turn aids in communication. For example, wrapping text in a <code> tag helps the relevant user agent to recognize the cotent within those tags as a piece of code. By better definining the layout of a web page, semantic HTML makes web pages more accessible to users who rely on software such as screen readers, improves SEO positioning by giving the relevant tracking algorithm as much information as is required for optimization, etc. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
 3. What are the 4 areas of the box model?
+
+ANS:
+
+Content - This is the area of the CSS box where both images and text go
+Padding - This is the outer edge of the content box - it is found between the content and the border
+Border - This is the area between the padding and the margin - it extends around the padding
+Margin - This is the outermost area of the box model - it extends around the border 
+
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
