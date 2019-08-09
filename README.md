@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-ANS: Semantic HTML is the use of HTML markup to add contextual/additional meaning to a web page, rather than just presentational, which in turn aids in communication. For example, wrapping text in a <code> tag helps the relevant user agent to recognize the cotent within those tags as a piece of code. By better definining the layout of a web page, semantic HTML makes web pages more accessible to users who rely on software such as screen readers, improves SEO positioning by giving the relevant tracking algorithm as much information as is required for optimization, etc. 
+ANS: Semantic HTML is the use of HTML markup to add contextual/additional meaning to a web page, rather than just for presentation, which in turn aids in communication. For example, wrapping text in a /*code*/ tag tag helps the relevant user agent to recognize the cotent within those tags as a piece of code. By better definining the layout of a web page, semantic HTML makes web pages more accessible to users who rely on software such as screen readers, improves SEO positioning by giving the relevant tracking algorithm as much information as is required for optimization, etc. 
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
