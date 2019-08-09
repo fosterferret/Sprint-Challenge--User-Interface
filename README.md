@@ -44,10 +44,13 @@ ANS: ```display: block;``` creates a block-level element such that it utilizes t
 
 ANS:
 
-Content - This is the area of the CSS box where both images and text go
-Padding - This is the outer edge of the content box - it is found between the content and the border
-Border - This is the area between the padding and the margin - it extends around the padding
-Margin - This is the outermost area of the box model - it extends around the border 
+Content - This is the area of the CSS box where both images and text go.
+
+Padding - This is the outer edge of the content box - it is found between the content and the border.
+
+Border - This is the area between the padding and the margin - it extends around the padding.
+
+Margin - This is the outermost area of the box model - it extends around the border. 
 
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
